@@ -1,0 +1,7 @@
+data/*
+!data/examples/
+!data/examples/local_import.sample.json
+dist/
+*.db
+*.exe
+config/app.json

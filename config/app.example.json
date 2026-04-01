@@ -1,0 +1,10 @@
+{
+  "ai": {
+    "base_url": "https://api.openai.com/v1",
+    "api_key": "replace-with-your-openai-api-key",
+    "model": "gpt-4o-mini"
+  },
+  "capture": {
+    "auto_analyze": false
+  }
+}

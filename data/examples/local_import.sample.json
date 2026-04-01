@@ -1,0 +1,23 @@
+[
+  {
+    "title": "用复盘模板让 AI 帮我整理问题根因",
+    "problem": "对话内容很长，复盘时容易遗漏真正的失败点",
+    "solution_text": "固定输入为背景、现象、假设、证据、结论五段，让 AI 先归纳再输出改进动作。",
+    "source_type": "chat",
+    "source_name": "conversation-export",
+    "source_ref": "chat-001",
+    "raw_content_ref": "raw://conversation/chat-001",
+    "tags": ["retrospective", "analysis"]
+  },
+  {
+    "title": "让 AI 先给 SQL 验证样例再写查询",
+    "problem": "直接生成 SQL 容易语义跑偏",
+    "solution_text": "先要求 AI 列出目标字段、过滤条件和两条样例结果，再生成 SQL，命中率明显更高。",
+    "status": "confirmed_success",
+    "source_type": "chat",
+    "source_name": "conversation-export",
+    "source_ref": "chat-002",
+    "raw_content_ref": "raw://conversation/chat-002",
+    "tags": ["sql", "prompt"]
+  }
+]
