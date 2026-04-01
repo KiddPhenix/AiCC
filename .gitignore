@@ -1,7 +1,10 @@
 data/*
 !data/examples/
 !data/examples/local_import.sample.json
-dist/
+dist/*
+!dist/AiHelper-installer.zip
+!dist/AiHelper-portable.zip
 *.db
 *.exe
 config/app.json
+!dist/AiHelper-Setup.exe
